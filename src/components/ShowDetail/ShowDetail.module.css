@@ -1,0 +1,78 @@
+.details__container {
+   width: 50rem;
+   margin: 5rem auto;
+   border-radius: 10px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.details__images {
+   flex-basis: 30%;
+   text-align: center;
+   height: 100%;
+}
+
+.details__images img {
+   width: 60%;
+}
+
+.details__info {
+   flex-basis: 70%;
+   height: 100%;
+   border-left: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+.basic__info {
+   padding: 1.5rem;
+}
+
+.basic__info h2 {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: 500;
+   color: #333;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.basic__info p > span {
+   /* font-weight: 700; */
+   /* font-size: 1.2rem; */
+   font-size: 1rem;
+   font-weight: 500;
+   color: rgba(51, 51, 51, 0.8);
+   /* text-transform: uppercase; */
+}
+
+.pokemon__characteristics {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-top: 1.5px solid rgba(51, 51, 51, 0.5);
+   margin-top: 1rem;
+}
+
+.pokemon__abilities,
+.pokemon__types {
+   margin-top: 1rem;
+   flex-basis: 50%;
+}
+
+.pokemon__abilities h4,
+.pokemon__types h4 {
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: rgba(51, 51, 51, 0.7);
+   text-transform: uppercase;
+}
+
+.ability__name,
+.type__name {
+   margin-top: 0.2rem;
+   padding-left: 0.5rem;
+   font-weight: 500;
+   font-size: 1rem;
+}
